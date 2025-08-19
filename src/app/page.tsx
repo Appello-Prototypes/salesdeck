@@ -72,6 +72,7 @@ export default function SalesDeck() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-appello-primary/90 backdrop-blur-md border-b border-appello-secondary/20">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/Appello-Logo-White.svg" 
               alt="Appello" 

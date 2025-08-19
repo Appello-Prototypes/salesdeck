@@ -46,7 +46,7 @@ export function ProblemSlide() {
           Common ICI Contractor Challenges
         </div>
         <h1 className="text-5xl appello-headline text-white">
-          What's Holding Your <span className="text-appello-secondary">Construction Business</span> Back?
+          What&apos;s Holding Your <span className="text-appello-secondary">Construction Business</span> Back?
         </h1>
         <p className="text-xl appello-body text-appello-gray max-w-4xl mx-auto">
           Most ICI contractors face the same operational challenges that limit growth and profitability
@@ -220,7 +220,7 @@ export function BenefitsSlide() {
 
   const testimonials = [
     { name: 'Sarah Johnson', company: 'TechCorp Inc.', quote: 'This platform transformed our entire operation. ROI in just 3 months!' },
-    { name: 'Mike Chen', company: 'Global Solutions', quote: 'The best investment we\'ve made. Our team efficiency skyrocketed.' }
+    { name: 'Mike Chen', company: 'Global Solutions', quote: 'The best investment we&apos;ve made. Our team efficiency skyrocketed.' }
   ]
 
   return (
@@ -256,7 +256,7 @@ export function BenefitsSlide() {
                   <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <p className="text-white/80 mb-4 italic">"{testimonial.quote}"</p>
+              <p className="text-white/80 mb-4 italic">&ldquo;{testimonial.quote}&rdquo;</p>
               <div>
                 <p className="font-semibold text-blue-300">{testimonial.name}</p>
                 <p className="text-white/60 text-sm">{testimonial.company}</p>
