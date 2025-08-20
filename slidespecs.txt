@@ -1,0 +1,703 @@
+APPELLO SALES PRESENTATION
+The ONLY Platform Purpose-Built for ICI Subcontractors
+
+EXECUTIVE SUMMARY FOR DECISION MAKERS
+This presentation demonstrates why Appello is the only comprehensive platform designed specifically for Tier 2/3 ICI subcontractors in Mechanical, Electrical, Insulation, HVAC, Fire Protection, and Sheet Metal trades.
+
+KEY TAKEAWAYS:
+• ONLY platform built for ICI subcontractors (not adapted from GC or residential software)
+• 5-star G2 rating with 25 successful customers
+• Handles union & merit shop operations seamlessly  
+• Government contract compliance built-in (COR, Davis-Bacon, certified payroll)
+• Start with timesheets, expand based on your needs
+• 2-4 week implementation with white-glove support
+
+TARGET AUDIENCE: ICI Subcontractor owners, operations managers, decision makers
+PRESENTATION GOAL: Book live demo to see Appello in action with your specific workflows
+
+SLIDE 1: HOOK - REAL HUMAN SUPPORT
+Title: "Stop Managing Your Business with Excel and Paper"
+Subtitle: "The Only Platform Purpose-Built for ICI Subcontractors"
+Content Requirements:
+
+4 stat cards with icons and supporting text
+Support highlight box with key messaging
+2 CTA buttons (primary and secondary)
+
+Stats Cards:
+
+📞 Real Human Support - "Call us, we answer"
+🇨🇦🇺🇸 Canadian & American - "Dedicated local support"
+25+ Specialty Contractors - "Successfully onboarded with 5-star G2 rating"
+1,100+ Field Workers Managed - "Thomas Group enterprise validation"
+
+Key Message:
+"🤝 You Deal Directly with Us - Small team, direct access. No call centers, no chatbots. When you call Appello, you talk to real people who know your business and can actually help you solve problems."
+Required Images:
+
+Hero image: Split-screen showing chaotic Excel spreadsheets/paper timesheets vs. clean Appello mobile interface
+Office staff photo: Project manager or admin on phone providing support
+Device mockup: Tablet showing Appello dashboard in professional hands
+
+CTAs:
+
+Primary: "Book Your Demo Today →"
+Secondary: "Talk to Our Customers"
+
+
+SLIDE 2: THE PROBLEM
+Title: "Your Current Reality"
+Subtitle: "The Daily Struggle Every ICI Subcontractor Faces"
+Content Requirements:
+
+5 problem cards with icons and detailed descriptions
+Testimonial quote box
+
+Problem Cards:
+
+📋 Stuck with Point Solutions - "ClockShark for time, Workyard for GPS, FieldWire for tasks, QuickBooks for accounting. 5+ systems that don't talk to each other."
+💻 Wrong Software for Your Business - "Procore built for GCs, ServiceTitan for residential, Jonas for accounting. Nothing purpose-built for ICI subcontractors."
+📊 Excel Nightmare for Complex Work - "Union wage calculations, prevailing wage rates, certified payroll, COR compliance. Excel can't handle your complexity."
+🔍 No ICI-Specific Features - "Government contract requirements, trade certifications, multi-year project tracking. Generic software doesn't understand your business."
+⏰ Administrative Chaos - "15+ hours/week on data entry between systems. Missing the features you actually need for mechanical, electrical, insulation work."
+
+Required Images:
+
+Paper timesheet chaos: Scattered paper forms, clipboards, filing cabinets
+Office admin stressed: Person surrounded by paperwork and multiple computer screens
+Excel nightmare: Screenshot of complex, error-prone spreadsheet
+Field worker frustration: Worker filling out paper forms in harsh conditions
+
+Testimonial Quote:
+"We tried Procore - too expensive and built for GCs. ServiceTitan doesn't understand commercial projects. Point solutions like ClockShark and Workyard left us with 5 different systems. Nothing was built for ICI subcontractors like us until Appello."
+
+SLIDE 3: COST OF STATUS QUO
+Title: "What This Really Costs You"
+Subtitle: "The Hidden Price of Inefficient Operations"
+Content Requirements:
+
+ROI calculator with 4 key metrics
+3 detailed breakdown cards
+Urgency banner with key question
+
+ROI Calculator Metrics:
+
+"520-780 Hours Lost Annually"
+"$23,400 Lost Productivity Value"
+"5-8% Profit Margin Erosion"
+"$160,000 Lost Profits on $2M Revenue"
+
+Breakdown Cards:
+
+⏱️ Time Lost - Daily timesheet processing, manual updates, form collection, data reconciliation
+💰 Money Lost - Budget overruns, material waste, missed change orders, compliance issues
+🚫 Growth Limited - Can't scale, no data insights, operational complexity, missed opportunities
+
+Required Images:
+
+Estimator overwhelmed: Project manager buried in calculations and paperwork
+Clock/time visualization: Time slipping away graphic with dollar signs
+Scheduler frustrated: Person managing complex wall calendar or whiteboard
+Calculator/money graphics: Financial loss visualization
+
+Urgency Message:
+"💡 The Million-Dollar Question: What could you do with an extra $100,000 in profit this year?"
+
+SLIDE 4: INTRODUCING APPELLO
+Title: "Purpose-Built for Companies Like Yours"
+Subtitle: "The Only Platform Designed Specifically for ICI Specialty Subcontractors"
+Content Requirements:
+
+4 feature cards with icons and descriptions
+Customer testimonial with attribution
+2 CTA buttons
+
+Feature Cards:
+
+🎯 Target Sweet Spot: 10-500 Field Workers - "Exactly where you are or want to be. Not too simple, not too complex - just right for your business size and complexity."
+🏗️ Your Industries - Mechanical Insulation, Thermal Insulation, HVAC, Electrical, Mechanical Fabrication, Sheet Metal & Fire Protection
+🏆 Built by Subcontractors For Subcontractors - "We understand your challenges because we've lived them. Our platform was built from the ground up by people in the trades."
+🚀 Battle-Tested Success - 5-star rating on G2, AI-powered intelligence, Speaking at MICA & TIAC conferences, Industry recognition
+
+Required Images:
+
+Field crew using tablets: Workers on construction site using Appello mobile app
+Industry montage: Photos representing mechanical, electrical, HVAC, fire protection trades
+Conference speaking: Professional presenting at industry conference
+Device mockup: Smartphone showing Appello interface in field worker's hands
+
+Testimonial:
+"Moving our timesheets, project costing, and reporting into Appello cut hours of admin work every week. My team isn't going back." — Andrew Martin, Thermec Insulation
+
+SLIDE 5: PROVEN IMPLEMENTATION PROCESS
+Title: "Start with Timesheets, Expand at Your Pace"
+Subtitle: "Our Proven Onboarding Process - We Do the Heavy Lifting"
+Content Requirements:
+
+4-step timeline with weekly progression
+Support highlight box
+3 benefit cards with detailed features
+
+Timeline Steps:
+
+Week 1: Foundation Setup - Data migration, user setup, timesheet & payroll focus, CSV imports from existing systems
+Week 2-4: Training & Go-Live - System configuration, integration connections, comprehensive user training, go-live support
+Week 5+: Module Expansion - Weekly working sessions to adopt additional modules based on biggest improvement opportunities identified during onboarding
+
+Support Message:
+"🛠️ We Handle the Heavy Lifting - Form Creation • Data Upload • System Integration • Zapier Connections. You focus on your business while we handle the technical setup."
+Benefit Cards:
+
+📞 Dedicated Direct Contact - Personal phone numbers, founder access, no call centers, real people
+🔗 Native Integrations - QuickBooks Online/Desktop, Sage (50/100/300/Intacct), Vista by Viewpoint, Spectrum by Viewpoint, Foundation, Dayforce Powerpay
+⚡ Plus Zapier - 7,500+ connections, workflow automation, RESTful API, Trimble App XChange Partner
+
+Required Images:
+
+Onboarding session: Screen showing video call with Appello team and customer
+Integration logos: Visual array of all accounting/payroll system logos
+Admin training: Office person learning Appello on computer with trainer
+Timeline graphic: Professional implementation roadmap visualization
+
+
+SLIDE 6: COMPLETE SOLUTION OVERVIEW
+Title: "Pay Only for What You Use, Access Everything"
+Subtitle: "10 Integrated Modules Under One Roof"
+Content Requirements:
+
+6 module cards (showing top modules)
+Integration benefits banner
+2 CTA buttons
+
+Module Cards:
+
+🏗️ Project & Job Management - Digital job files, milestone tracking, interactive mapping, multi-customer flexibility
+👥 Workforce Scheduling - Gantt-style views, handles all job types (2-hour service calls to multi-year projects), trade-level scheduling, certification cross-referencing
+⏰ Time Tracking & Payroll - Electronic timesheets with GPS, rule-based CBA calculations, union & prevailing wages
+🛡️ Safety & Compliance - Custom form builder, COR certification support, AI policy writer, regulatory automation
+🔧 Equipment & Asset Management - QR code tracking, lifecycle management, geolocation check-in/out, maintenance alerts
+🤖 AI-Powered Intelligence - Vectorized pricing database, estimate generation, multilingual support, automated insights
+💰 Financial Management - Real-time job costing, certified payroll (WH-347), progress billing, native QuickBooks Online integration
+
+Required Images:
+
+Device mockup cluster: Tablet showing project dashboard, phone showing timesheet, laptop showing reports
+Scheduler at work: Person using drag-and-drop scheduling interface
+Field worker check-in: Worker using phone to check into job site with GPS
+Office dashboard: Large monitor showing comprehensive Appello dashboard overview
+
+Integration Message:
+"✅ Integration Benefits You Get Immediately: Single source of truth • Seamless data flow • No duplicate entry • Real-time visibility"
+
+Implementation Approach:
+"📋 Start with Timesheets & Payroll - Most companies begin here to streamline their biggest pain point"
+"📈 Expand Based on Impact - Add modules based on biggest improvement opportunities identified during onboarding"
+"🔧 Full Platform Access - Pay only for what you use, but access the entire platform from day one"
+
+Coming Soon Modules:
+"🚀 Service & Dispatch - Centralized service requests, automated invoicing, customer signatures"
+"📦 Supply Chain Management - Purchase orders, inventory tracking, supplier performance management"
+
+SLIDE 7: COMPETITIVE ADVANTAGE
+Title: "Why Appello vs. Everyone Else"
+Subtitle: "Clear Competitive Differentiation"
+Content Requirements:
+
+Comparison table with 5 columns and 6 feature rows
+2 detailed benefit cards
+1 CTA button
+
+Comparison Table:
+FeatureAppelloProcoreServiceTitanPoint SolutionsBuilt for ICI Subcontractors✓✗ (GC Focus)✗ (Residential)✗ (Generic)Tier 2/3 Subtrade Focus✓✗ (GC-centric)✗ (Residential)✗ (Generic)Union Workforce Management✓✗✗✗Government Contract Compliance✓✗ (Limited)✗ (None)✗ (None)Real Human Support✓✗ (Call Centers)✗ (Chatbots)✗ (Varies)Fast Implementation (2-4 weeks)✓✗ (3-6 Months)✗ (2-4 Months)✗ (Multiple Systems)All Modules Included✓✗ (Add-ons)✗ (Add-ons)✗ (Separate Costs)5-Star G2 Rating✓✗ (Mixed reviews)✗ (Mixed reviews)✗ (Limited reviews)
+Detail Cards:
+
+🎯 ONLY True ICI Subcontractor Platform - Purpose-built for Tier 2/3 subcontractors (Mechanical, Electrical, Insulation, HVAC, Fire Protection), not adapted from GC or residential software
+🏭 Government Contract Specialist - COR certification, Davis-Bacon compliance, certified payroll (WH-347), Green Book requirements built-in, not added on
+🔧 Union & Merit Shop Expert - Complex wage calculations, collective bargaining agreements, prevailing wage management, trade certification tracking
+🔒 Complete Integration Ecosystem - Native accounting integrations, Trimble App XChange partner, 7,500+ Zapier connections, no vendor lock-in
+
+Required Images:
+
+Competitor logos: Professional representation of Procore, ServiceTitan logos
+Personal support: Photo of Appello team member on phone with customer
+Union workers: Professional photo of unionized construction crew
+Comparison visualization: Clean graphic showing Appello advantages
+
+
+SLIDE 8: THE ICI SUBCONTRACTOR GAP
+Title: "The Only Platform Built for YOUR Business"
+Subtitle: "Why Every Other Solution Falls Short for ICI Subcontractors"
+Content Requirements:
+
+Market gap visualization showing where other solutions fail
+4 gap analysis cards with specific examples
+Appello unique positioning banner
+2 CTA buttons
+
+Gap Analysis Cards:
+
+🏢 Procore Problem - "Built for GCs managing subs, not subs managing people. Subs hate using it - too expensive, too complex, wrong workflows"
+🏠 ServiceTitan Problem - "Residential service focus. Can't handle multi-year projects, union wages, or government compliance requirements"
+🔧 Point Solutions Problem - "Workyard, ClockShark, FieldWire - each solves one piece. You need 5+ systems, constant data entry, no integration"
+📊 Generic Software Problem - "Jonas, Foundation, Sage - accounting-focused. Missing field operations, safety compliance, modern mobile experience"
+
+Market Gap Visualization:
+"The ICI Subcontractor Sweet Spot: Too complex for residential tools, too specialized for GC platforms, too field-focused for accounting software"
+
+Unique Positioning Banner:
+"🎯 ONLY Appello: Purpose-built for Tier 2/3 ICI subcontractors. Mechanical, Electrical, Insulation, HVAC, Fire Protection. Union & Merit Shop. Government & Private. 2-hour service calls to multi-year projects."
+
+Required Images:
+
+Market gap diagram: Visual showing where other solutions fail to serve ICI subcontractors
+ICI project examples: Large commercial/industrial construction sites
+Tier 2/3 subcontractor work: Mechanical rooms, electrical installations, insulation work
+Frustrated contractor: Person dealing with multiple disconnected systems
+
+SLIDE 9: AI-POWERED COMPETITIVE ADVANTAGE
+Title: "The Future is Already Here"
+Subtitle: "Advanced AI Capabilities Setting Industry Standards"
+Content Requirements:
+
+4 AI capability cards with specific features
+Competitive differentiation banner
+2 detailed benefit cards
+1 CTA button
+
+AI Capability Cards:
+
+🧠 Vectorized Pricing Intelligence - Pinecone-powered database with manufacturer price books, converts unstructured quote requests into structured estimates
+🎯 Streamlined Estimating - Quote letter templates, standardized worksheets, estimate calendar, deal flow tracking (not takeoff software)
+📊 Automated Documentation - AI note-taking, multilingual translations, policy writing, compliance documentation
+🔮 Advanced Analytics - Budget overrun prediction, certification expiry alerts, safety compliance forecasting, capacity planning
+
+Required Images:
+
+AI dashboard: Screen showing AI-generated insights and recommendations
+Multi-platform integration: Visual showing data flowing between different business systems
+Predictive analytics: Charts showing forecasting and trend analysis
+Automation in action: Interface showing automated report generation
+
+Competitive Message:
+"🚀 Industry-First AI Integration: While competitors add AI as an afterthought, Appello was built with AI-first architecture. Our Apex and Atlas systems provide intelligence no other construction platform can match."
+
+Detail Cards:
+
+🤖 AI-Native Architecture - All data objects designed for AI accessibility, predictive intelligence across all business operations
+⚡ Real-Time Intelligence - Automated insights from unified data architecture, proactive decision support, human-in-the-loop refinement
+
+SLIDE 10: ROI DEMONSTRATION
+Title: "Real Numbers from Real Customers"
+Subtitle: "Quantified Return on Investment"
+Content Requirements:
+
+ROI calculator with 4 key financial metrics
+4 detailed benefit cards with before/after comparisons
+Urgency banner with bottom line message
+
+ROI Calculator:
+
+"Start with Timesheets & Payroll (Your biggest pain point)"
+"30% Administrative Overhead Savings (Proven with customers)"
+"2-4 weeks to See Results (Immediate impact)"
+"Expand Based on Impact (Add modules as you see value)"
+
+Benefit Cards:
+
+⏰ Administrative Time Savings - Before: 15+ hours/week, After: <1 hour/week, Value: $21,000-$35,000 annually
+💰 Improved Job Profitability - 5-8% margin improvement, $100,000-$160,000 on $2M revenue, real-time job costing
+📄 Government Contract Ready - COR certification support, certified payroll (WH-347), audit-ready documentation
+🛡️ Compliance Cost Savings - Reduced insurance premiums, automated safety compliance, $10,000-$25,000 annual savings
+
+Required Images:
+
+Project manager celebrating: Person reviewing positive financial reports on screen
+Estimator efficient: Professional quickly creating estimates on tablet
+Financial dashboard: Large screen showing real-time profitability metrics
+Admin streamlined: Office person completing payroll in minutes vs. hours
+
+Urgency Message:
+"💡 The Math is Simple: Even with conservative estimates, Appello pays for itself in the first month and delivers $263,000+ in net value annually"
+
+SLIDE 11: CUSTOMER SUCCESS OVERVIEW
+Title: "Proven Results Across Customer Types"
+Subtitle: "Success Stories from Real Customers"
+Content Requirements:
+
+4 customer overview cards with specific metrics
+Urgency banner about reference customers
+2 CTA buttons
+
+Customer Cards:
+
+🏭 Rival Insulation - Union Operations - 75+ unionized workers, complex union wage rules, digital safety compliance, strategic US market validation
+📈 Thermec Insulation - Growth Enablement - 45 field workers, 8hrs→2hrs payroll time, real-time job costing, first customer success
+🚀 Vanoss Insulation - Digital Transformation - ~50 workers, whiteboard to digital scheduling, minority partner relationship
+⚡ Thomas Group - Enterprise Scale - ~1,100 employees, ~200 power users, enterprise scalability proof
+
+Required Images:
+
+Union crew: Professional photo of unionized insulation workers
+Growing team: Mid-sized contractor team in office and field
+Digital transformation: Before/after comparison of manual vs. digital processes
+Electrical work: Electricians using mobile devices on commercial job site
+
+Testimonials:
+
+"Appello understands the complexity of union operations." — Chris Tremberth, Operations Manager
+"My team isn't going back to the old way." — Andrew Martin, Thermec
+
+Reference Message:
+"📞 Talk to Our Customers Directly: We'll connect you with reference customers in your specific trade who can share their real-world experience"
+
+SLIDE 12: RIVAL INSULATION CASE STUDY
+Title: "Case Study: Rival Insulation"
+Subtitle: "Complex Union Operations Made Simple"
+Content Requirements:
+
+YouTube video player (embedded, center-positioned)
+Case study header with company details
+Challenge description paragraph
+4 metric cards with specific numbers
+Solution bullet points
+Customer testimonial with attribution
+
+Company Details:
+"Rival Insulation - United States • 75+ unionized field workers • CSIA Local 25 signatory • Complex collective bargaining agreements • Strategic US market validation"
+Challenge:
+"Rival Insulation struggled with union wage calculations, multiple rates, overtime rules, benefits, prevailing wage compliance for government projects, and complex payroll reporting required by union agreements."
+Metrics:
+
+Complex Union Wage Rules Handled
+Digital Safety Compliance Implemented
+Automated Payroll Processing
+Strategic US Market Validation
+
+Solution Points:
+
+Advanced Payroll Module: Custom union wage rule configuration
+Compliance Tracking: Automated safety and certification management
+Time Tracking: Union-compliant timesheet processing
+Reporting: Specialized union payroll and compliance reports
+
+YouTube Video:
+"Watch Chris Tremberth from Rival Insulation explain how Appello handles their complex union operations"
+
+Required Images:
+
+Union workers on site: Professional photo of insulation crew working (as video thumbnail backup)
+Payroll processing: Screen showing complex union wage calculations being automated
+Compliance dashboard: Interface showing safety certifications and compliance status
+Video play button overlay: Professional video player interface
+
+Testimonial:
+"Appello understands the complexity of union operations. They built exactly what we needed for our workforce, and the results speak for themselves." — Chris Tremberth, Operations Manager, Rival Insulation
+
+SLIDE 13: THERMEC CASE STUDY
+Title: "Case Study: Thermec Insulation"
+Subtitle: "Operational Efficiency Transformation"
+Content Requirements:
+
+YouTube video player (embedded, center-positioned)
+Case study header with company details
+Challenge description paragraph
+4 metric cards with specific numbers
+Solution bullet points
+Customer testimonial with attribution
+
+Company Details:
+"Thermec Insulation - Ottawa, Canada • 45 field workers • First Appello customer • Sage 50 integration success"
+Challenge:
+"Thermec was experiencing rapid growth but manual processes were bottlenecks. Paper timesheets caused payroll delays, Excel-based job costing had no real-time visibility, and disconnected systems required duplicate data entry."
+Metrics:
+
+8hrs → 2hrs Weekly Payroll Time
+10+ hrs/week Admin Time Saved
+100% Field Worker Adoption
+2 weeks Go-Live Timeline
+
+Solution Points:
+
+Digital Time Tracking: Mobile app for field workers
+Real-time Job Costing: Automated cost tracking and reporting
+Safety Management: Digital forms and compliance tracking
+Sage 50 Integration: Seamless accounting system connection
+
+YouTube Video:
+"Watch Andrew Martin from Thermec Insulation share how Appello transformed their operations and cut admin work by hours every week"
+
+Required Images:
+
+Field crew with devices: Thermec workers using mobile app on insulation job (as video thumbnail backup)
+Office efficiency: Admin person quickly processing digital timesheets
+Real-time dashboard: Screen showing live job costing and project status
+Video play button overlay: Professional video player interface
+
+Testimonial:
+"Moving our timesheets, project costing, and reporting into Appello cut hours of admin work every week. My team isn't going back." — Andrew Martin, Thermec Insulation
+
+SLIDE 14: THOMAS GROUP CASE STUDY
+Title: "Case Study: Thomas Group"
+Subtitle: "Enterprise Scalability Proven"
+Content Requirements:
+
+YouTube video player (embedded, center-positioned)
+Case study header with company details
+Challenge description paragraph
+4 metric cards with specific numbers
+Solution bullet points
+Customer testimonial with attribution
+Strategic impact statement
+
+Company Details:
+"Thomas Group - Canada • ~1,100 total employees, ~200 power users • Enterprise-scale mechanical insulation contractor • Multiple locations across Canada"
+Challenge:
+"Thomas Group needed to manage workforce across multiple locations with complex project requirements, certification tracking, and enterprise-scale operational visibility. As one of Canada's largest mechanical insulation contractors, they required a solution that could scale to their size."
+Metrics:
+
+Enterprise Scale Validation
+~200 Power Users Supported
+Multiple Location Management
+Complex Project Coordination
+
+Solution Points:
+
+Workforce Management: Digital crew scheduling across multiple locations
+Enterprise Features: Advanced user permissions and organizational hierarchy
+Project Management: Complex project tracking and coordination
+Scalability: Proven platform performance at enterprise scale
+
+YouTube Video:
+"Watch Thomas Group leadership discuss how Appello transformed their enterprise-scale workforce management across multiple locations"
+
+Required Images:
+
+Enterprise operations: Large-scale construction project with Thomas Group branding (as video thumbnail backup)
+Multi-location management: Interface showing multiple project locations
+Enterprise dashboard: Complex reporting and analytics interface
+Video play button overlay: Professional video player interface
+
+Testimonial:
+"Appello transformed how we manage our workforce. We have visibility we never had before across all our locations and projects." — Operations Manager, Thomas Group
+Strategic Impact:
+"Thomas Group validates Appello's enterprise scalability, proving the platform works for the largest contractors in the mechanical insulation industry and enables complex workforce management at scale."
+
+SLIDE 15: VANOSS CASE STUDY
+Title: "Case Study: Vanoss Insulation"
+Subtitle: "From Chaos to Control - Complete Digital Transformation"
+Content Requirements:
+
+YouTube video player (embedded, center-positioned)
+Case study header with company details
+Challenge description paragraph
+4 metric cards with descriptive results
+Solution bullet points
+Customer testimonial with attribution
+Strategic impact statement
+
+Company Details:
+"Vanoss Insulation - London, Ontario • ~50 field workers • Matt Vanoss as minority partner/investor • Foundation customer for product development"
+Challenge:
+"Vanoss was the foundation customer for Appello's development: third-generation family business transitioning from manual processes including whiteboard scheduling, paper-based systems, and limited digital capabilities. As minority partner/investor, Matt Vanoss provided critical industry insights for product development."
+Metrics:
+
+Real-time Crew Visibility
+Eliminated Payroll Chaos
+100% Digital Compliance
+Foundation For Growth
+
+Solution Points:
+
+Workforce Scheduling: Digital crew scheduling and dispatch
+Time Tracking: Mobile timesheets with geolocation
+Job Costing: Real-time project cost tracking
+Safety Management: Digital safety forms and compliance
+
+YouTube Video:
+"Watch Matt Vanoss, Owner & Minority Partner, share the complete digital transformation journey from whiteboards to real-time visibility"
+
+Required Images:
+
+Before/after comparison: Whiteboard schedule vs. digital scheduling interface (as video thumbnail backup)
+Vanos crew: Field workers using Appello mobile app
+Digital transformation: Office showing transition from paper to digital systems
+Video play button overlay: Professional video player interface
+
+Testimonial:
+"We built this together from the ground up. Every feature was tested with real field workers and real projects." — Matt Vanoss, Owner & Minority Partner, Vanoss Insulation
+Strategic Impact:
+"Vanoss became the foundation customer and strategic partner that enabled Appello's development, with Matt Vanoss as minority partner/investor providing ongoing industry expertise and product validation."
+
+SLIDE 16: PRICING & VALUE
+Title: "Transparent, Scalable Investment"
+Subtitle: "Pricing That Pays for Itself"
+Content Requirements:
+
+2 pricing overview cards
+Comparison table with 4 solution types
+Inclusion banner highlighting what's included
+1 CTA button
+
+Pricing Cards:
+
+💰 Simple Pricing Structure - Pay only for what you use, access to entire platform included, implementation and training included, ongoing support included
+🎯 Flexible Investment - Start with timesheets & payroll, expand based on your needs, complete platform access, white-glove implementation, dedicated customer success
+
+Comparison Table:
+Solution TypeAnnual CostImplementationHidden CostsTotal 3-Year CostPoint Solutions$15,000-25,000$5,000-15,000Integration, maintenance$75,000-125,000Enterprise Software$50,000-150,000$25,000-100,000Customization, consulting$200,000-550,000AppelloStart with timesheetsIncludedNone$TBD based on usage
+Required Images:
+
+Pricing transparency: Clean, professional pricing visualization
+Value comparison: Graphic showing Appello savings vs. alternatives
+Contract signing: Business handshake or contract signing scene
+ROI visualization: Graph showing investment vs. return over time
+
+Inclusion Message:
+"🛡️ What's Included: Setup & Training • Direct Support • All Integrations • Regular Updates • No Hidden Fees"
+
+SLIDE 17: NEXT STEPS
+Title: "Ready to Transform Your Operations?"
+Subtitle: "Take the Next Step Toward Operational Excellence"
+Content Requirements:
+
+4 action step cards with detailed descriptions
+Support highlight box with key messaging
+2 contact cards for team members
+2 CTA buttons
+
+Action Cards:
+
+🎯 Schedule Your Live Demo - Industry-specific demonstration, real workflow examples, Q&A session, 45-60 minutes focused discussion
+📊 Custom ROI Analysis - Based on current operations, specific savings calculations, implementation timeline, investment justification materials
+📞 Reference Customer Connections - Speak with customers in your industry, firsthand experiences, real-world results, build decision confidence
+🚀 Implementation Planning - 30-day detailed timeline, data migration strategy, training plan, go-live support and success metrics
+
+Support Message:
+"🤝 Why Choose Appello? Real People • Direct Access • Canadian & American Support • We Do the Heavy Lifting • Industry Recognition. When you call, you talk to the people who built the software and understand your business. Featured in industry publications and speaking at major trade conferences."
+Contact Cards:
+
+Corey Shelson, CEO & Co-Founder - corey@useappello.com, [Phone], [Calendar]
+Ian Haase, VP Sales - ian@useappello.com, [Phone], [Calendar]
+
+Required Images:
+
+Demo session: Screen showing live Appello demonstration in progress
+ROI analysis: Professional showing financial projections and calculations
+Reference call: Customer speaking positively on video call
+Corey Shelson photo: Professional headshot of CEO
+Ian Haase photo: Professional headshot of VP Sales
+
+
+SLIDE 18: FINAL CTA
+Title: "Join 25 Companies Who Chose 5-Star Support"
+Subtitle: "Ready to stop managing your business with Excel and paper?"
+Content Requirements:
+
+4 stat summary cards reinforcing key differentiators
+Final testimonial quote
+2 prominent CTA buttons
+Transformation banner with closing message
+
+Stats Cards:
+
+📞 Real Human Support - "No call centers, no chatbots"
+2-4 Week Implementation - "Start with timesheets, expand over time"
+5-Star G2 Rating - "Customer satisfaction proven"
+🇨🇦🇺🇸 Canadian & American - "Dedicated local support"
+
+Final Testimonial:
+"Stop settling for software that wasn't built for you. Join the 25 ICI subcontractors who found the ONLY platform purpose-built for Tier 2/3 subcontractors. Schedule your demo and see why Appello is different."
+Required Images:
+
+Success montage: Multiple photos showing satisfied customers across different trades
+Team celebration: Appello team providing support and celebrating customer success
+Digital transformation: Split image showing paper chaos vs. streamlined digital operations
+Call to action: Professional business meeting or handshake representing partnership
+
+Transformation Message:
+"✨ Transform Your Operations Starting Next Week: While your competitors wrestle with spreadsheets, you'll have real-time visibility, automated processes, and direct access to our team"
+CTAs:
+
+Primary: "Book Your Demo Today →" (large, prominent)
+Secondary: "Call Now: [Phone Number]" (phone link)
+
+
+IMAGE & VIDEO DISTRIBUTION SUMMARY
+
+YOUTUBE VIDEOS (4 Customer Case Studies):
+Slide 12: Rival Insulation - Chris Tremberth discussing union operations
+Slide 13: Thermec Insulation - Andrew Martin on operational transformation
+Slide 14: Thomas Group - Leadership on enterprise-scale workforce management
+Slide 15: Vanoss Insulation - Matt Vanoss on digital transformation journey
+
+Field Workers Using App: 8 images across slides
+
+Slide 1: Field worker with tablet showing dashboard
+Slide 4: Construction crew using mobile app on site
+Slide 6: Worker using phone for GPS check-in
+Slide 9: Unionized insulation workers
+Slide 10: Union crew working with devices
+Slide 11: Thermec workers using mobile app
+Slide 12: Video thumbnail backup - Union crew working with devices
+Slide 15: Multiple trades using technology
+
+Office Staff (Admins, Estimators, PMs, Schedulers): 10 images across slides
+
+Slide 1: Project manager providing phone support
+Slide 2: Admin overwhelmed with paperwork
+Slide 3: Estimator with calculations, scheduler with calendar
+Slide 5: Admin in training session
+Slide 6: Scheduler using drag-and-drop interface
+Slide 7: Team member on support call
+Slide 8: Project manager with financial reports, efficient estimator
+Slide 11: Admin processing digital timesheets
+Slide 14: Professional showing ROI analysis
+
+App Screenshots in Device Mockups: 12 images across slides
+
+Slide 1: Tablet showing dashboard
+Slide 4: Smartphone with field interface
+Slide 5: Computer screen in training
+Slide 6: Tablet, phone, and laptop mockup cluster
+Slide 6: Large monitor dashboard overview
+Slide 10: Payroll processing interface
+Slide 10: Compliance dashboard
+Slide 11: Real-time costing dashboard
+Slide 12: Digital scheduling vs. whiteboard comparison
+Slide 14: Live demo screen
+
+Total Media Required: 
+• 4 YouTube videos (customer testimonials)
+• 30+ images providing comprehensive visual coverage
+• Video player interfaces and thumbnail backups
+• Balanced representation of field workers, office staff, and app interfaces
+
+═══════════════════════════════════════════════════════════════
+
+PRESENTATION SUMMARY & CALL TO ACTION
+
+WHY APPELLO IS DIFFERENT:
+✓ ONLY platform built specifically for ICI Tier 2/3 subcontractors
+✓ Handles your complex workflows: Union wages, government compliance, multi-year projects
+✓ Start with timesheets (your biggest pain point), expand based on impact
+✓ 5-star G2 rating, 25 successful customers, proven results
+✓ 2-4 week implementation with white-glove support
+✓ Direct access to founders and development team
+
+WHAT HAPPENS NEXT:
+1. BOOK YOUR DEMO → See Appello working with workflows like yours
+2. TALK TO OUR CUSTOMERS → Get references from your specific trade
+3. CUSTOM ROI ANALYSIS → Understand your specific savings potential
+4. IMPLEMENTATION PLANNING → Get your 30-day roadmap to success
+
+PRIMARY CALL TO ACTION:
+"Book Your Demo Today" - Schedule 45-60 minute industry-specific demonstration
+
+CONTACT INFORMATION:
+• Corey Shelson, CEO & Co-Founder: corey@useappello.com
+• Ian Haase, VP Sales: ian@useappello.com
+
+UNIQUE VALUE PROPOSITION:
+"Stop settling for software that wasn't built for you. Appello is the ONLY platform purpose-built for ICI subcontractors. See the difference in your demo."
+
+═══════════════════════════════════════════════════════════════

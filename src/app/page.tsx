@@ -7,14 +7,15 @@ import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
 import { ChevronLeft, ChevronRight, Play, TrendingUp, Users, Star, HelpCircle, Pause } from 'lucide-react'
-import { ProblemSlide, SolutionSlide, BenefitsSlide, CTASlide } from '@/components/slides'
+import { ProblemSlide, CostSlide, SolutionSlide } from '@/components/slides'
+import { CTASlide } from '@/components/cta-slide'
 
 const slides = [
-  { id: 1, title: 'Transform Your Business', subtitle: 'Revolutionary Solutions for Modern Challenges', type: 'intro' },
-  { id: 2, title: 'The Challenge', subtitle: 'What\'s Holding Your Business Back?', type: 'problem' },
-  { id: 3, title: 'Our Solution', subtitle: 'Cutting-Edge Technology That Delivers Results', type: 'solution' },
-  { id: 4, title: 'Benefits & Features', subtitle: 'Why Choose Our Platform?', type: 'benefits' },
-  { id: 5, title: 'Ready to Get Started?', subtitle: 'Join Thousands of Satisfied Customers', type: 'cta' }
+  { id: 1, title: 'Stop Managing Your Business with Excel and Paper', subtitle: 'The Only Platform Purpose-Built for ICI Subcontractors', type: 'intro' },
+  { id: 2, title: 'Your Current Reality', subtitle: 'The Daily Struggle Every ICI Subcontractor Faces', type: 'problem' },
+  { id: 3, title: 'What This Really Costs You', subtitle: 'The Hidden Price of Inefficient Operations', type: 'cost' },
+  { id: 4, title: 'Purpose-Built for Companies Like Yours', subtitle: 'The Only Platform Designed Specifically for ICI Specialty Subcontractors', type: 'solution' },
+  { id: 5, title: 'Ready to Transform Your Operations?', subtitle: 'Take the Next Step Toward Operational Excellence', type: 'cta' }
 ]
 
 export default function SalesDeck() {
@@ -60,8 +61,8 @@ export default function SalesDeck() {
     switch (slides[currentSlide].type) {
       case 'intro': return <IntroSlide />
       case 'problem': return <ProblemSlide />
+      case 'cost': return <CostSlide />
       case 'solution': return <SolutionSlide />
-      case 'benefits': return <BenefitsSlide />
       case 'cta': return <CTASlide />
       default: return <IntroSlide />
     }
@@ -161,53 +162,72 @@ function IntroSlide() {
   return (
     <div className="text-center space-y-8 animate-fade-in">
       <div className="space-y-6">
-        <div className="appello-callout-bubble inline-block">
-          Construction Technology Solutions
-        </div>
         <h1 className="text-6xl appello-headline text-white mb-4">
-          Transform Your <span className="text-appello-secondary">Construction Business</span>
+          Stop Managing Your Business with <span className="text-red-400">Excel and Paper</span>
         </h1>
-        <p className="text-xl appello-body text-appello-gray max-w-4xl mx-auto leading-relaxed">
-          Streamline operations, boost efficiency, and scale your ICI contracting business with real-time insights and powerful automation tools
-        </p>
+        <h2 className="text-3xl appello-callout text-appello-secondary mb-6">
+          The Only Platform Purpose-Built for ICI Subcontractors
+        </h2>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+      {/* Stats Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
         <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-8 text-center">
-            <div className="w-16 h-16 bg-appello-secondary rounded-full flex items-center justify-center mx-auto mb-6">
-              <TrendingUp className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-2xl appello-callout text-white mb-2">40% Faster</h3>
-            <p className="text-appello-gray appello-body">Project completion time</p>
+          <CardContent className="p-6 text-center">
+            <div className="text-4xl mb-4">📞</div>
+            <h3 className="text-lg appello-callout text-white mb-2">Real Human Support</h3>
+            <p className="text-appello-gray appello-body text-sm">&ldquo;Call us, we answer&rdquo;</p>
           </CardContent>
         </Card>
         
         <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-8 text-center">
-            <div className="w-16 h-16 bg-appello-secondary rounded-full flex items-center justify-center mx-auto mb-6">
-              <Users className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-2xl appello-callout text-white mb-2">500+</h3>
-            <p className="text-appello-gray appello-body">ICI contractors served</p>
+          <CardContent className="p-6 text-center">
+            <div className="text-4xl mb-4">🇨🇦🇺🇸</div>
+            <h3 className="text-lg appello-callout text-white mb-2">Canadian & American</h3>
+            <p className="text-appello-gray appello-body text-sm">Dedicated local support</p>
           </CardContent>
         </Card>
         
         <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-8 text-center">
-            <div className="w-16 h-16 bg-appello-secondary rounded-full flex items-center justify-center mx-auto mb-6">
-              <Star className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-2xl appello-callout text-white mb-2">4.8/5</h3>
-            <p className="text-appello-gray appello-body">Customer satisfaction</p>
+          <CardContent className="p-6 text-center">
+            <div className="text-4xl mb-4">⭐</div>
+            <h3 className="text-lg appello-callout text-white mb-2">25+ Specialty Contractors</h3>
+            <p className="text-appello-gray appello-body text-sm">5-star G2 rating</p>
+          </CardContent>
+        </Card>
+        
+        <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
+          <CardContent className="p-6 text-center">
+            <div className="text-4xl mb-4">👷</div>
+            <h3 className="text-lg appello-callout text-white mb-2">1,100+ Field Workers</h3>
+            <p className="text-appello-gray appello-body text-sm">Thomas Group enterprise validation</p>
           </CardContent>
         </Card>
       </div>
       
-      <div className="mt-12">
-        <Badge className="bg-appello-primary text-white px-6 py-3 text-sm appello-callout rounded-full">
-          🏗️ Built specifically for Industrial, Commercial & Institutional contractors
-        </Badge>
+      {/* Support Highlight */}
+      <Card className="bg-appello-secondary/20 border-appello-secondary/50 backdrop-blur-sm max-w-4xl mx-auto mt-12">
+        <CardContent className="p-8">
+          <div className="flex items-start space-x-4">
+            <div className="text-3xl">🤝</div>
+            <div className="text-left">
+              <h3 className="text-xl appello-callout text-white mb-3">You Deal Directly with Us</h3>
+              <p className="appello-body text-appello-gray">
+                Small team, direct access. No call centers, no chatbots. When you call Appello, you talk to real people who know your business and can actually help you solve problems.
+              </p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+      
+      {/* CTAs */}
+      <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
+        <Button size="lg" className="bg-appello-secondary hover:bg-appello-primary text-white px-8 py-4 text-lg appello-callout">
+          Book Your Demo Today →
+        </Button>
+        <Button size="lg" variant="outline" className="border-appello-secondary text-appello-secondary hover:bg-appello-secondary hover:text-white px-8 py-4 text-lg appello-callout">
+          Talk to Our Customers
+        </Button>
       </div>
     </div>
   )
