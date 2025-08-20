@@ -107,24 +107,39 @@ export default function SalesDeck() {
               className="h-8 w-auto"
             />
           </div>
-          <div className="flex items-center space-x-2">
-            {slides.map((_, index) => (
-              <button key={index} onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all ${
-                  index === currentSlide 
-                    ? 'bg-appello-secondary scale-125' 
-                    : 'bg-white/30 hover:bg-appello-secondary/50'
-                }`} />
-            ))}
-          </div>
+          
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="sm" onClick={() => setShowHelp(!showHelp)} className="text-white hover:bg-appello-secondary/20">
-              <HelpCircle className="w-4 h-4" />
+            <Button 
+              onClick={prevSlide} 
+              disabled={currentSlide === 0} 
+              variant="ghost" 
+              size="sm"
+              className="text-white hover:bg-appello-secondary/20 disabled:opacity-50"
+            >
+              <ChevronLeft className="w-4 h-4 mr-1" />Previous
             </Button>
+            
+            <Button 
+              onClick={nextSlide} 
+              disabled={currentSlide === slides.length - 1} 
+              variant="ghost" 
+              size="sm"
+              className="text-white hover:bg-appello-secondary/20 disabled:opacity-50"
+            >
+              Next<ChevronRight className="w-4 h-4 ml-1" />
+            </Button>
+            
+            <div className="w-px h-6 bg-white/20"></div>
+            
             <Button variant="ghost" size="sm" onClick={() => setIsAutoPlay(!isAutoPlay)} className="text-white hover:bg-appello-secondary/20">
               {isAutoPlay ? <Pause className="w-4 h-4 text-appello-secondary" /> : <Play className="w-4 h-4" />}
             </Button>
+            
             <span className="text-sm text-white/70">{currentSlide + 1} / {slides.length}</span>
+            
+            <Button variant="ghost" size="sm" onClick={() => setShowHelp(!showHelp)} className="text-white hover:bg-appello-secondary/20">
+              <HelpCircle className="w-4 h-4" />
+            </Button>
           </div>
         </div>
       </nav>
@@ -150,34 +165,9 @@ export default function SalesDeck() {
         </div>
       )}
 
-      <main className="pt-20 h-screen flex flex-col p-6">
-        <div className="w-full max-w-6xl mx-auto flex-1 flex flex-col">
-          {/* Slide Content - Fixed Height */}
-          <div className="flex-1 flex items-center justify-center">
-            <div className="w-full h-full flex items-center justify-center overflow-y-auto">
-              {renderSlideContent()}
-            </div>
-          </div>
-          
-          {/* Navigation Controls - Fixed at Bottom */}
-          <div className="flex justify-between items-center py-6">
-            <Button 
-              onClick={prevSlide} 
-              disabled={currentSlide === 0} 
-              variant="outline" 
-              className="border-appello-secondary text-appello-secondary hover:bg-appello-secondary hover:text-white disabled:opacity-50"
-            >
-              <ChevronLeft className="w-4 h-4 mr-2" />Previous
-            </Button>
-            
-            <Button 
-              onClick={nextSlide} 
-              disabled={currentSlide === slides.length - 1} 
-              className="bg-appello-secondary hover:bg-appello-primary text-white disabled:opacity-50"
-            >
-              Next<ChevronRight className="w-4 h-4 ml-2" />
-            </Button>
-          </div>
+      <main className="pt-20 h-screen flex items-center justify-center p-6">
+        <div className="w-full max-w-6xl h-full flex items-center justify-center">
+          {renderSlideContent()}
         </div>
       </main>
     </div>
