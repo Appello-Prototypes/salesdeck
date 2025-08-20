@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import { Card, CardContent } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
+
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-import { ArrowRight, CheckCircle, Star, TrendingUp, Users, Shield, Zap } from 'lucide-react'
+import { CheckCircle, Star } from 'lucide-react'
 
 export function ProblemSlide() {
-  const [hoveredProblem, setHoveredProblem] = useState<number | null>(null)
   
   const problems = [
     { 
@@ -51,9 +50,7 @@ export function ProblemSlide() {
         {problems.map((problem, index) => (
           <Card 
             key={index} 
-            className="bg-appello-white/5 border-appello-gray/20 backdrop-blur-sm hover:bg-appello-white/10 transition-all cursor-pointer hover-lift"
-            onMouseEnter={() => setHoveredProblem(index)}
-            onMouseLeave={() => setHoveredProblem(null)}
+            className="bg-appello-white/5 border-appello-gray/20 backdrop-blur-sm hover:bg-appello-white/10 transition-all hover-lift"
           >
             <CardContent className="p-6">
               <div className="text-center mb-4">
@@ -352,61 +349,6 @@ export function BenefitsSlide() {
           </div>
         </CardContent>
       </Card>
-    </div>
-  )
-}
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
-        {features.map((feature, index) => (
-          <Card 
-            key={index} 
-            className={`bg-appello-white/5 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/10 transition-all group cursor-pointer hover-lift ${
-              activeFeature === index ? 'ring-2 ring-appello-secondary bg-appello-secondary/10' : ''
-            }`}
-            onClick={() => setActiveFeature(activeFeature === index ? null : index)}
-          >
-            <CardContent className="p-8">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-12 h-12 bg-appello-secondary/20 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-                  {feature.icon}
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg appello-callout text-white mb-2">{feature.title}</h3>
-                </div>
-              </div>
-              <p className="appello-body text-appello-gray text-sm leading-relaxed mb-4">{feature.description}</p>
-              {activeFeature === index && (
-                <div className="mt-4 p-4 bg-appello-secondary/10 rounded-xl border border-appello-secondary/30 animate-scale-in">
-                  <p className="text-appello-secondary appello-body text-sm">{feature.details}</p>
-                </div>
-              )}
-            </CardContent>
-          </Card>
-        ))}
-      </div>
-
-      {/* Customer Testimonial */}
-      <Card className="bg-appello-secondary/10 border-appello-secondary/30 backdrop-blur-sm max-w-4xl mx-auto mt-16">
-        <CardContent className="p-8 text-center">
-          <div className="text-5xl text-appello-secondary mb-4">&ldquo;</div>
-          <p className="text-xl appello-body text-white italic mb-6 leading-relaxed">
-            Moving our timesheets, project costing, and reporting into Appello cut hours of admin work every week. My team isn&apos;t going back.
-          </p>
-          <div className="text-appello-secondary appello-callout">
-            — Andrew Martin, Thermec Insulation
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* CTAs */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-        <Button size="lg" className="bg-appello-secondary hover:bg-appello-primary text-white px-8 py-4 text-lg appello-callout">
-          Book Your Demo Today →
-        </Button>
-        <Button size="lg" variant="outline" className="border-appello-secondary text-appello-secondary hover:bg-appello-secondary hover:text-white px-8 py-4 text-lg appello-callout">
-          Talk to Our Customers
-        </Button>
-      </div>
     </div>
   )
 }

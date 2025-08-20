@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
-import { ChevronLeft, ChevronRight, Play, TrendingUp, Users, Star, HelpCircle, Pause } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Play, HelpCircle, Pause } from 'lucide-react'
 import { ProblemSlide, CostSlide, SolutionSlide } from '@/components/slides'
 import { CTASlide } from '@/components/cta-slide'
 
