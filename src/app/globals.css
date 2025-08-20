@@ -11,7 +11,7 @@
     --appello-secondary-blue: #3B71F4;
     --appello-dark-navy: #0A0F1C;
     --appello-white: #FFFFFF;
-    --appello-neutral-gray: #6B7280;
+    --appello-neutral-gray: #9CA3AF;
     
     /* ShadCN Variables mapped to Appello colors */
     --background: 255 255 255; /* White */
@@ -25,7 +25,7 @@
     --secondary: 59 113 244; /* Secondary Blue */
     --secondary-foreground: 255 255 255;
     --muted: 243 244 246;
-    --muted-foreground: 107 114 128; /* Neutral Gray */
+    --muted-foreground: 156 163 175; /* Lighter Neutral Gray */
     --accent: 59 113 244;
     --accent-foreground: 255 255 255;
     --destructive: 239 68 68;

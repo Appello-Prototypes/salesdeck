@@ -16,33 +16,34 @@ export function ImplementationSlide() {
   ]
 
   return (
-    <div className="space-y-8 animate-fade-in">
-      <div className="text-center space-y-6">
-        <h1 className="text-5xl appello-headline text-white">
-          Start with <span className="text-appello-secondary">Timesheets</span>, Expand at Your Pace
-        </h1>
-        <h2 className="text-2xl appello-callout text-appello-secondary">
-          Our Proven Onboarding Process - We Do the Heavy Lifting
-        </h2>
-      </div>
+    <div className="h-full flex items-center">
+      <div className="w-full space-y-6">
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl appello-headline text-white">
+            Start with <span className="text-appello-secondary">Timesheets</span>, Expand at Your Pace
+          </h1>
+          <h2 className="text-lg appello-callout text-appello-secondary">
+            Our Proven Onboarding Process - We Do the Heavy Lifting
+          </h2>
+        </div>
 
-      {/* Timeline */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-        {timeline.map((step, index) => (
-          <Card key={index} className="bg-appello-white/5 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/10 transition-all">
-            <CardContent className="p-8">
-              <div className="text-center mb-6">
-                <div className="w-12 h-12 bg-appello-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white appello-callout">{index + 1}</span>
+        {/* Timeline */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {timeline.map((step, index) => (
+            <Card key={index} className="bg-appello-white/5 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/10 transition-all">
+              <CardContent className="p-4">
+                <div className="text-center mb-4">
+                  <div className="w-8 h-8 bg-appello-secondary rounded-full flex items-center justify-center mx-auto mb-2">
+                    <span className="text-white appello-callout text-sm">{index + 1}</span>
+                  </div>
+                  <Badge className="bg-appello-primary text-white px-2 py-1 text-xs">{step.week}</Badge>
                 </div>
-                <Badge className="bg-appello-primary text-white px-3 py-1">{step.week}</Badge>
-              </div>
-              <h3 className="text-lg appello-callout text-white mb-4 text-center">{step.title}</h3>
-              <p className="appello-body text-appello-gray text-sm text-center leading-relaxed">{step.description}</p>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+                <h3 className="text-sm appello-callout text-white mb-2 text-center">{step.title}</h3>
+                <p className="appello-body text-appello-gray text-xs text-center leading-relaxed">{step.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
 
       {/* Support Message */}
       <Card className="bg-appello-secondary/20 border-appello-secondary/50 backdrop-blur-sm max-w-5xl mx-auto">

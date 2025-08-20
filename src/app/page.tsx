@@ -150,11 +150,17 @@ export default function SalesDeck() {
         </div>
       )}
 
-      <main className="pt-20 min-h-screen flex items-center justify-center p-6">
-        <div className="w-full max-w-6xl">
-
-          <div className="relative">{renderSlideContent()}</div>
-          <div className="flex justify-between items-center mt-12">
+      <main className="pt-20 h-screen flex flex-col p-6">
+        <div className="w-full max-w-6xl mx-auto flex-1 flex flex-col">
+          {/* Slide Content - Fixed Height */}
+          <div className="flex-1 flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-center overflow-y-auto">
+              {renderSlideContent()}
+            </div>
+          </div>
+          
+          {/* Navigation Controls - Fixed at Bottom */}
+          <div className="flex justify-between items-center py-6">
             <Button 
               onClick={prevSlide} 
               disabled={currentSlide === 0} 
@@ -163,10 +169,7 @@ export default function SalesDeck() {
             >
               <ChevronLeft className="w-4 h-4 mr-2" />Previous
             </Button>
-            <div className="text-center">
-              <h3 className="text-lg appello-callout text-white mb-1">{slides[currentSlide].title}</h3>
-              <p className="text-appello-gray text-sm">{slides[currentSlide].subtitle}</p>
-            </div>
+            
             <Button 
               onClick={nextSlide} 
               disabled={currentSlide === slides.length - 1} 
@@ -183,74 +186,77 @@ export default function SalesDeck() {
 
 function IntroSlide() {
   return (
-    <div className="text-center space-y-8 animate-fade-in">
-      <div className="space-y-6">
-        <h1 className="text-6xl appello-headline text-white mb-4">
-          Stop Managing Your Business with <span className="text-red-400">Excel and Paper</span>
-        </h1>
-        <h2 className="text-3xl appello-callout text-appello-secondary mb-6">
-          The Only Platform Purpose-Built for ICI Subcontractors
-        </h2>
-      </div>
-      
-      {/* Stats Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
-        <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-6 text-center">
-            <div className="text-4xl mb-4">📞</div>
-            <h3 className="text-lg appello-callout text-white mb-2">Real Human Support</h3>
-            <p className="text-appello-gray appello-body text-sm">&ldquo;Call us, we answer&rdquo;</p>
-          </CardContent>
-        </Card>
-        
-        <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-6 text-center">
-            <div className="text-4xl mb-4">🇨🇦🇺🇸</div>
-            <h3 className="text-lg appello-callout text-white mb-2">Canadian & American</h3>
-            <p className="text-appello-gray appello-body text-sm">Dedicated local support</p>
-          </CardContent>
-        </Card>
-        
-        <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-6 text-center">
-            <div className="text-4xl mb-4">⭐</div>
-            <h3 className="text-lg appello-callout text-white mb-2">25+ Specialty Contractors</h3>
-            <p className="text-appello-gray appello-body text-sm">5-star G2 rating</p>
-          </CardContent>
-        </Card>
-        
-        <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all hover-lift">
-          <CardContent className="p-6 text-center">
-            <div className="text-4xl mb-4">👷</div>
-            <h3 className="text-lg appello-callout text-white mb-2">1,100+ Field Workers</h3>
-            <p className="text-appello-gray appello-body text-sm">Thomas Group enterprise validation</p>
-          </CardContent>
-        </Card>
-      </div>
-      
-      {/* Support Highlight */}
-      <Card className="bg-appello-secondary/20 border-appello-secondary/50 backdrop-blur-sm max-w-4xl mx-auto mt-12">
-        <CardContent className="p-8">
-          <div className="flex items-start space-x-4">
-            <div className="text-3xl">🤝</div>
-            <div className="text-left">
-              <h3 className="text-xl appello-callout text-white mb-3">You Deal Directly with Us</h3>
-              <p className="appello-body text-appello-gray">
-                Small team, direct access. No call centers, no chatbots. When you call Appello, you talk to real people who know your business and can actually help you solve problems.
-              </p>
-            </div>
+    <div className="h-full flex items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full">
+        {/* Left Content */}
+        <div className="space-y-8 animate-fade-in">
+          <div className="space-y-6">
+            <h1 className="text-5xl appello-headline text-white mb-4">
+              Stop Managing Your Business with <span className="text-red-400">Excel and Paper</span>
+            </h1>
+            <h2 className="text-2xl appello-callout text-appello-secondary mb-6">
+              The Only Platform Purpose-Built for ICI Subcontractors
+            </h2>
           </div>
-        </CardContent>
-      </Card>
-      
-      {/* CTAs */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-        <Button size="lg" className="bg-appello-secondary hover:bg-appello-primary text-white px-8 py-4 text-lg appello-callout">
-          Book Your Demo Today →
-        </Button>
-        <Button size="lg" variant="outline" className="border-appello-secondary text-appello-secondary hover:bg-appello-secondary hover:text-white px-8 py-4 text-lg appello-callout">
-          Talk to Our Customers
-        </Button>
+          
+          {/* Stats Cards */}
+          <div className="grid grid-cols-2 gap-4">
+            <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all">
+              <CardContent className="p-4 text-center">
+                <div className="text-2xl mb-2">📞</div>
+                <h3 className="text-sm appello-callout text-white mb-1">Real Human Support</h3>
+                <p className="text-appello-gray appello-body text-xs">&ldquo;Call us, we answer&rdquo;</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all">
+              <CardContent className="p-4 text-center">
+                <div className="text-2xl mb-2">🇨🇦🇺🇸</div>
+                <h3 className="text-sm appello-callout text-white mb-1">Canadian & American</h3>
+                <p className="text-appello-gray appello-body text-xs">Local support</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all">
+              <CardContent className="p-4 text-center">
+                <div className="text-2xl mb-2">⭐</div>
+                <h3 className="text-sm appello-callout text-white mb-1">25+ Contractors</h3>
+                <p className="text-appello-gray appello-body text-xs">5-star G2 rating</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="bg-appello-white/10 border-appello-secondary/30 backdrop-blur-sm hover:bg-appello-white/20 transition-all">
+              <CardContent className="p-4 text-center">
+                <div className="text-2xl mb-2">👷</div>
+                <h3 className="text-sm appello-callout text-white mb-1">1,100+ Workers</h3>
+                <p className="text-appello-gray appello-body text-xs">Enterprise validated</p>
+              </CardContent>
+            </Card>
+          </div>
+          
+          {/* CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button size="lg" className="bg-appello-secondary hover:bg-appello-primary text-white px-6 py-3 appello-callout">
+              Book Your Demo Today →
+            </Button>
+            <Button size="lg" variant="outline" className="border-appello-secondary text-appello-secondary hover:bg-appello-secondary hover:text-white px-6 py-3 appello-callout">
+              Talk to Our Customers
+            </Button>
+          </div>
+        </div>
+
+        {/* Right Content - Hero Image */}
+        <div className="flex items-center justify-center">
+          <div className="relative">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src="/644ac2f4d9cf36fa0e97b650_Anzen-Timesheets-p-2000.png" 
+              alt="Appello mobile timesheet interface showing modern digital solution vs paper chaos"
+              className="rounded-xl shadow-2xl max-w-full h-auto"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-appello-navy/20 to-transparent rounded-xl"></div>
+          </div>
+        </div>
       </div>
     </div>
   )
