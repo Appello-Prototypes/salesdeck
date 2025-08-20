@@ -45,7 +45,7 @@ export function ImplementationSlide() {
           ))}
         </div>
 
-      {/* Support Message */}
+        {/* Support Message */}
       <Card className="bg-appello-secondary/20 border-appello-secondary/50 backdrop-blur-sm max-w-5xl mx-auto">
         <CardContent className="p-8">
           <div className="flex items-start space-x-4">
@@ -60,17 +60,18 @@ export function ImplementationSlide() {
         </CardContent>
       </Card>
 
-      {/* Benefit Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-        {benefits.map((benefit, index) => (
-          <Card key={index} className="bg-appello-white/5 border-appello-secondary/30 backdrop-blur-sm">
-            <CardContent className="p-6 text-center">
-              <div className="text-3xl mb-4">{benefit.icon}</div>
-              <h3 className="text-lg appello-callout text-white mb-3">{benefit.title}</h3>
-              <p className="appello-body text-appello-gray text-sm leading-relaxed">{benefit.description}</p>
-            </CardContent>
-          </Card>
-        ))}
+        {/* Benefit Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {benefits.map((benefit, index) => (
+            <Card key={index} className="bg-appello-white/5 border-appello-secondary/30 backdrop-blur-sm">
+              <CardContent className="p-4 text-center">
+                <div className="text-2xl mb-3">{benefit.icon}</div>
+                <h3 className="text-sm appello-callout text-white mb-2">{benefit.title}</h3>
+                <p className="appello-body text-appello-gray text-xs leading-relaxed">{benefit.description}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </div>
   )
