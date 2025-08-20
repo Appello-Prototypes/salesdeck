@@ -8,14 +8,28 @@ import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
 import { ChevronLeft, ChevronRight, Play, HelpCircle, Pause } from 'lucide-react'
 import { ProblemSlide, CostSlide, SolutionSlide } from '@/components/slides'
-import { CTASlide } from '@/components/cta-slide'
+import { ImplementationSlide, ModulesSlide, CompetitiveSlide, GapSlide, AISlide, ROISlide, CustomersSlide } from '@/components/all-slides'
+import { RivalSlide, ThermecSlide, ThomasSlide, VanossSlide, PricingSlide, NextStepsSlide, FinalCTASlide } from '@/components/case-studies'
 
 const slides = [
   { id: 1, title: 'Stop Managing Your Business with Excel and Paper', subtitle: 'The Only Platform Purpose-Built for ICI Subcontractors', type: 'intro' },
   { id: 2, title: 'Your Current Reality', subtitle: 'The Daily Struggle Every ICI Subcontractor Faces', type: 'problem' },
   { id: 3, title: 'What This Really Costs You', subtitle: 'The Hidden Price of Inefficient Operations', type: 'cost' },
-  { id: 4, title: 'Purpose-Built for Companies Like Yours', subtitle: 'The Only Platform Designed Specifically for ICI Specialty Subcontractors', type: 'solution' },
-  { id: 5, title: 'Ready to Transform Your Operations?', subtitle: 'Take the Next Step Toward Operational Excellence', type: 'cta' }
+  { id: 4, title: 'Introducing Appello', subtitle: 'Purpose-Built for Companies Like Yours', type: 'solution' },
+  { id: 5, title: 'Start with Timesheets, Expand at Your Pace', subtitle: 'Our Proven Onboarding Process', type: 'implementation' },
+  { id: 6, title: 'Pay Only for What You Use, Access Everything', subtitle: '10 Integrated Modules Under One Roof', type: 'modules' },
+  { id: 7, title: 'Why Appello vs. Everyone Else', subtitle: 'Clear Competitive Differentiation', type: 'competitive' },
+  { id: 8, title: 'The Only Platform Built for YOUR Business', subtitle: 'Why Every Other Solution Falls Short', type: 'gap' },
+  { id: 9, title: 'The Future is Already Here', subtitle: 'Advanced AI Capabilities Setting Industry Standards', type: 'ai' },
+  { id: 10, title: 'Real Numbers from Real Customers', subtitle: 'Quantified Return on Investment', type: 'roi' },
+  { id: 11, title: 'Proven Results Across Customer Types', subtitle: 'Success Stories from Real Customers', type: 'customers' },
+  { id: 12, title: 'Case Study: Rival Insulation', subtitle: 'Complex Union Operations Made Simple', type: 'rival' },
+  { id: 13, title: 'Case Study: Thermec Insulation', subtitle: 'Operational Efficiency Transformation', type: 'thermec' },
+  { id: 14, title: 'Case Study: Thomas Group', subtitle: 'Enterprise Scalability Proven', type: 'thomas' },
+  { id: 15, title: 'Case Study: Vanoss Insulation', subtitle: 'From Chaos to Control', type: 'vanoss' },
+  { id: 16, title: 'Transparent, Scalable Investment', subtitle: 'Pricing That Pays for Itself', type: 'pricing' },
+  { id: 17, title: 'Ready to Transform Your Operations?', subtitle: 'Take the Next Step Toward Operational Excellence', type: 'nextsteps' },
+  { id: 18, title: 'Join 25 Companies Who Chose 5-Star Support', subtitle: 'Ready to stop managing your business with Excel and paper?', type: 'finalcta' }
 ]
 
 export default function SalesDeck() {
@@ -42,7 +56,7 @@ export default function SalesDeck() {
         prevSlide()
       } else if (e.key === 'Escape') {
         setIsAutoPlay(false)
-      } else if (e.key >= '1' && e.key <= '5') {
+      } else if (e.key >= '1' && e.key <= '9') {
         const slideIndex = parseInt(e.key) - 1
         if (slideIndex < slides.length) {
           goToSlide(slideIndex)
@@ -63,7 +77,20 @@ export default function SalesDeck() {
       case 'problem': return <ProblemSlide />
       case 'cost': return <CostSlide />
       case 'solution': return <SolutionSlide />
-      case 'cta': return <CTASlide />
+      case 'implementation': return <ImplementationSlide />
+      case 'modules': return <ModulesSlide />
+      case 'competitive': return <CompetitiveSlide />
+      case 'gap': return <GapSlide />
+      case 'ai': return <AISlide />
+      case 'roi': return <ROISlide />
+      case 'customers': return <CustomersSlide />
+      case 'rival': return <RivalSlide />
+      case 'thermec': return <ThermecSlide />
+      case 'thomas': return <ThomasSlide />
+      case 'vanoss': return <VanossSlide />
+      case 'pricing': return <PricingSlide />
+      case 'nextsteps': return <NextStepsSlide />
+      case 'finalcta': return <FinalCTASlide />
       default: return <IntroSlide />
     }
   }
@@ -113,7 +140,7 @@ export default function SalesDeck() {
               <div className="space-y-4 text-appello-navy">
                 <div className="flex items-center space-x-3"><Badge className="bg-appello-secondary text-white px-3 py-1">←→</Badge><span className="appello-body">Arrow keys to navigate</span></div>
                 <div className="flex items-center space-x-3"><Badge className="bg-appello-secondary text-white px-3 py-1">Space</Badge><span className="appello-body">Next slide</span></div>
-                <div className="flex items-center space-x-3"><Badge className="bg-appello-secondary text-white px-3 py-1">1-5</Badge><span className="appello-body">Jump to specific slide</span></div>
+                <div className="flex items-center space-x-3"><Badge className="bg-appello-secondary text-white px-3 py-1">1-9</Badge><span className="appello-body">Jump to slides 1-9</span></div>
                 <div className="flex items-center space-x-3"><Badge className="bg-appello-secondary text-white px-3 py-1">ESC</Badge><span className="appello-body">Stop auto-play</span></div>
                 <Separator className="bg-appello-gray/20 my-4" />
                 <p className="text-sm text-appello-gray">Click on cards and elements to interact with them</p>
