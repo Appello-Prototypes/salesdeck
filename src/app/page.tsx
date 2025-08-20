@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Progress } from '@/components/ui/progress'
+
 import { Separator } from '@/components/ui/separator'
 import { ChevronLeft, ChevronRight, Play, HelpCircle, Pause } from 'lucide-react'
 import { ProblemSlide, CostSlide, SolutionSlide } from '@/components/slides'
@@ -152,11 +152,7 @@ export default function SalesDeck() {
 
       <main className="pt-20 min-h-screen flex items-center justify-center p-6">
         <div className="w-full max-w-6xl">
-          <div className="mb-8">
-            <Progress value={((currentSlide + 1) / slides.length) * 100} className="h-2 bg-appello-primary/20">
-              <div className="h-full bg-appello-secondary transition-all" />
-            </Progress>
-          </div>
+
           <div className="relative">{renderSlideContent()}</div>
           <div className="flex justify-between items-center mt-12">
             <Button 
